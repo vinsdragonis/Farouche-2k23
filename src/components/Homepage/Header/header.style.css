@@ -1,0 +1,66 @@
+.home .header {
+    width: 100%;
+    height: 100vh;
+    padding: 15% 10% 0;
+    text-align: center;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+    background-image: url(../../../assets/img/avatars/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--font-header-color);
+}
+
+.home .header .header-title {
+    font-size: 64px;
+}
+
+.home .header .header-title span:nth-of-type(1) {
+    color: var(--special-font-2-color);
+    font-weight: 700;
+}
+
+.home .header .header-title span:nth-of-type(2) {
+    color: var(--special-font-3-color);
+    font-weight: 700;
+}
+
+.home .header .header-sub-title {
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+.home .header .header-links {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home .header .header-links .header-link {
+    margin: 30px;
+    padding: 15px;
+    display: inline;
+    font-family: "Poppins", sans-serif;
+    background: var(--header-link-bg-color);
+    color: var(--font-dark-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.home .header .header-links .header-link:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 968px) {
+    .home .header {
+        padding: 50% 5% 0;
+    }
+    .home .header .header-links {
+        flex-direction: column;
+    }
+    .home .header .header-links .header-link {
+        margin: 30px 25%;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,36 @@
+.footer {
+    width: 100%;
+    height: 150px;
+    padding: 2%;
+    position: absolute;
+    top: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--footer-color);
+}
+
+.footer .footer-links {
+    justify-content: center;
+    align-items: center;
+}
+
+.footer span {
+    padding: 5%;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    color: var(--font-color);
+}
+
+.footer .footer-links .footer-link {
+    margin: 20px;
+    font-size: 32px;
+    display: inline-flex;
+    color: var(--font-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.footer .footer-links .footer-link:hover {
+    transform: scale(1.2);
+}

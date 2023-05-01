@@ -1,0 +1,6 @@
+.home {
+    position: absolute;
+    padding: 0;
+    top: 80px;
+    background: var(--home-color);
+}
