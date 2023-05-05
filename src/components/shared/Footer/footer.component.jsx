@@ -3,7 +3,7 @@ import React from 'react';
 
 import './footer.style.css';
 
-function Home() {
+function Footer() {
     return (
         <div className="footer">
             <span>Check us out at</span>
@@ -16,4 +16,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default Footer;
